@@ -1,0 +1,752 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* all_in_one_dynamic_custom_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20241108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 01:02+0000\n"
+"PO-Revision-Date: 2024-11-16 09:42+0800\n"
+"Last-Translator: 老天@odoo123.com\n"
+"Language-Team: 开源之家odoo123.com\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__add_field_in_tree
+msgid "Add Field to the Tree View"
+msgstr "添加字段到Tree 视图"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:res.groups,name:all_in_one_dynamic_custom_fields.group_all_in_one_dynamic_custom_fields_administrator
+msgid "Administrator"
+msgstr "Administrator"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__position__after
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__tree_field_position__after
+msgid "After"
+msgstr "置后"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.module.category,name:all_in_one_dynamic_custom_fields.module_category_all_in_one_dynamic_custom_fields
+#: model:ir.ui.menu,name:all_in_one_dynamic_custom_fields.menu_all_in_one_dynamic_custom_fields_root
+msgid "All in One Custom Dynamic Fields"
+msgstr "多合一动态字段生成器"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__position__before
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__tree_field_position__before
+msgid "Before"
+msgstr "置前"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__compute
+msgid ""
+"Code to compute the value of the field.\n"
+"Iterate on the recordset 'self' and assign the field's value:\n"
+"\n"
+"    for record in self:\n"
+"        record['size'] = len(record.name)\n"
+"\n"
+"Modules time, datetime, dateutil are available."
+msgstr ""
+"计算字段值的代码。\n"
+"迭代记录集“self”并分配字段值：\n"
+"\n"
+"    自我记录：\n"
+"        record['size'] = len(record.name)\n"
+"\n"
+"Modules time, datetime, dateutil 可用."
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__column1
+msgid "Column 1"
+msgstr "列 1"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__column2
+msgid "Column 2"
+msgstr "列 2"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__column2
+msgid "Column referring to the record in the comodel table"
+msgstr "引用comodel表中记录的列"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__column1
+msgid "Column referring to the record in the model table"
+msgstr "引用模型表中记录的列"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__company_dependent
+msgid "Company Dependent"
+msgstr "公司依赖"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__complete_name
+msgid "Complete Name"
+msgstr "完整名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__compute
+msgid "Compute"
+msgstr "计算"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__copied
+msgid "Copied"
+msgstr "副本"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Create Field"
+msgstr "创建字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.ui.menu,name:all_in_one_dynamic_custom_fields.menu_create_fields
+msgid "Create Fields"
+msgstr "创建字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.actions.act_window,help:all_in_one_dynamic_custom_fields.dynamic_fields_action
+msgid "Create New Custom Dynamic Field!"
+msgstr "创建新的自定义动态字段！"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__created_tree_view_id
+msgid "Created Tree view"
+msgstr "创建Tree视图"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__create_uid
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__created_form_view_id
+msgid "Created form view"
+msgstr "创建form视图"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__created_form_view_id
+msgid "Created form view id for the dynamic field"
+msgstr "为动态字段创建了表单视图id"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__create_date
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__currency_field
+msgid "Currency field"
+msgstr "当前字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.actions.act_window,name:all_in_one_dynamic_custom_fields.dynamic_fields_action
+#: model:ir.model,name:all_in_one_dynamic_custom_fields.model_dynamic_fields
+msgid "Custom Dynamic Fields"
+msgstr "自定义动态字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__data_type
+msgid "Data Type"
+msgstr "数据类型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__field_type
+msgid "Data type of new field"
+msgstr "新字段的数据类型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__data_type
+msgid "Datatype suitable for the widget"
+msgstr "适用于小部件的数据类型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__depends
+msgid "Dependencies"
+msgstr "依赖"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__depends
+msgid ""
+"Dependencies of compute method; a list of comma-separated field names, like\n"
+"\n"
+"    name, partner_id.name"
+msgstr ""
+"计算方法的依赖性；逗号分隔的字段名列表，如\n"
+"\n"
+"    name, partner_id.name"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__description
+msgid "Description"
+msgstr "描述"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__description
+msgid "Description of the widget"
+msgstr "widget小部件的描述"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__display_name
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__domain
+msgid "Domain"
+msgstr "域"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__status__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__is_dynamic_field
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_ir_model_fields__is_dynamic_field
+msgid "Dynamic Field"
+msgstr "动态字段生成器"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Eg: [('blue', 'Blue'),('yellow', 'Yellow')]"
+msgstr "举例: [('blue', 'Blue'),('yellow', 'Yellow')]"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tracking
+msgid "Enable Ordered Tracking"
+msgstr "启用订单跟踪"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__extra_features
+msgid "Enable to add extra features"
+msgstr "启用以添加扩展功能"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__add_field_in_tree
+msgid "Enable to add field in tree view"
+msgstr "启用在树视图中添加字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__is_visible_in_tree_view
+msgid "Enable to make the field visible in selected list view of the model"
+msgstr "启用以使字段在模型的选定列表视图中可见"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__group_expand
+msgid "Expand Groups"
+msgstr "扩展群组"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_inherit_id
+msgid "External Id"
+msgstr "扩展Id"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Extra Properties"
+msgstr "扩展属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields.selection,name:all_in_one_dynamic_custom_fields.selection__dynamic_fields__status__form
+msgid "Field Created"
+msgstr "创建字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__help
+msgid "Field Help"
+msgstr "帮助提示语"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Field Info"
+msgstr "字段基本信息"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__field_description
+msgid "Field Label"
+msgstr "显示名称（可用中文）"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__name
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__position_field_id
+msgid "Field Name"
+msgstr "字段名（禁止特殊符号及中文）"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__field_type
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__ttype
+msgid "Field Type"
+msgstr "字段类型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model,name:all_in_one_dynamic_custom_fields.model_dynamic_field_widgets
+msgid "Field Widgets"
+msgstr "挂件字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__ttype
+msgid "Field type of field"
+msgstr "字段类型字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model,name:all_in_one_dynamic_custom_fields.model_ir_model_fields
+#: model:ir.ui.menu,name:all_in_one_dynamic_custom_fields.menu_create_custom_dynamic_fields
+msgid "Fields"
+msgstr "字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation_field
+msgid ""
+"For one2many fields, the field on the target model that implement the "
+"opposite many2one relationship"
+msgstr "对于one2many字段，目标模型上实现相反many2one关系的字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation
+msgid "For relationship fields, the technical name of the target model"
+msgstr "对于关系字段，目标模型的技术名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_id
+msgid "Form View ID"
+msgstr "Form 视图 ID"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_ids
+msgid "Form View IDs"
+msgstr "Form 视图 ID"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_inherit_id
+msgid "Form View Inherit Id"
+msgstr "Form 视图继承 Id"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_id
+msgid "Form view id of the model"
+msgstr "模型的Form 视图 id"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_inherit_id
+msgid "Form view inherit id(adds by selecting form view id)"
+msgstr "Form 视图继承 id(添加选中的 form 视图id)"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__groups
+msgid "Groups"
+msgstr "群组"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__groups
+msgid "Groups of field"
+msgstr "字段群组"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.module.category,description:all_in_one_dynamic_custom_fields.module_category_all_in_one_dynamic_custom_fields
+msgid ""
+"Helps you handle your All-in-One Custom\n"
+"            Dynamic Fields Permissions\n"
+"        "
+msgstr ""
+"帮助您处理您的多功能定制\n"
+"            动态字段权限\n"
+"        "
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__id
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__id
+msgid "ID"
+msgstr "ID"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__group_expand
+msgid ""
+"If checked, all the records of the target model will be included\n"
+"in a grouped result (e.g. 'Group By' filters, Kanban columns, etc.).\n"
+"Note that it can significantly reduce performance if the target model\n"
+"of the field contains a lot of records; usually used on models with\n"
+"few records (e.g. Stages, Job Positions, Event Types, etc.)."
+msgstr ""
+"如果选中，将包括目标模型的所有记录\n"
+"在分组结果中（例如“分组依据”过滤器、看板列等）。\n"
+"请注意，如果目标模型\n"
+"该字段包含大量记录；通常用于以下型号\n"
+"少许记录 (例如 Stages, Job Positions, Event Types, 等等)。"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tracking
+msgid ""
+"If set every modification done to this field is tracked. Value is used to "
+"order tracking values."
+msgstr "如设置，则跟踪对此字段所做的每次修改。值用于对跟踪值进行排序。"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__modules
+msgid "In Apps"
+msgstr "在应用中"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__index
+msgid "Indexed"
+msgstr "索引"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__write_uid
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__write_date
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__modules
+msgid "List of modules in which the field is defined"
+msgstr "定义字段的模块列表"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__model
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__model_id
+msgid "Model"
+msgstr "模型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__name
+msgid "Name"
+msgstr "名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__currency_field
+msgid "Name of the Many2one field holding the res.currency"
+msgstr "拥有res.currency的Many2one字段的名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__on_delete
+msgid "On Delete"
+msgstr "删除"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__on_delete
+msgid "On delete property for many2one fields"
+msgstr "关于many 2one字段的delete属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__position
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Position"
+msgstr "位置"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__position_field_id
+msgid "Position field for new field"
+msgstr "新字段的位置字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_field_id
+msgid "Position for new field"
+msgstr "新字段的位置"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__position
+msgid "Position of new field"
+msgstr "新字段的位置"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_field_position
+msgid "Position of new field in tree view"
+msgstr "树视图中新字段的位置"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__readonly
+msgid "Readonly"
+msgstr "只读"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__related_field_id
+msgid "Related Field"
+msgstr "关联字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__related
+msgid "Related Field Definition"
+msgstr "关联字段关系"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation
+msgid "Related Model"
+msgstr "关联模型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation_field
+msgid "Relation Field"
+msgstr "关联字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation_table
+msgid "Relation Table"
+msgstr "关联表格"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation_field_id
+msgid "Relation field"
+msgstr "关联字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__ref_model_id
+msgid "Relational model for relational fields"
+msgstr "关系字段的关系模型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__required
+msgid "Required"
+msgstr "必填"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__ref_model_id
+msgid "RezlationalModel"
+msgstr "关系模型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize
+msgid "Sanitize HTML"
+msgstr "净化HTML"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize_attributes
+msgid "Sanitize HTML Attributes"
+msgstr "净化HTML 属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize_form
+msgid "Sanitize HTML Form"
+msgstr "净化HTML 表单"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize_style
+msgid "Sanitize HTML Style"
+msgstr "净化HTML 样式"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize_tags
+msgid "Sanitize HTML Tags"
+msgstr "净化HTML 标记"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__sanitize_overridable
+msgid "Sanitize HTML overridable"
+msgstr "净化HTML 可覆盖属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__selectable
+msgid "Selectable"
+msgstr "可选择的"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__selection_field
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__selection_ids
+msgid "Selection Options"
+msgstr "选择选项"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__selection
+msgid "Selection Options (Deprecated)"
+msgstr "选择选项（已弃用）"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__extra_features
+msgid "Show Extra Properties"
+msgstr "显示扩展属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__size
+msgid "Size"
+msgstr "大小"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__status
+msgid "State for record"
+msgstr "record记录状态"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__status
+msgid "Status"
+msgstr "状态"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__store
+msgid "Stored"
+msgstr "存储"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__form_view_ids
+msgid "Stores form view ids"
+msgstr "存储form 视图ids"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_ids
+msgid "Stores tree view ids"
+msgstr "存储tree 视图ids"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__strip_classes
+msgid "Strip Class Attribute"
+msgstr "Strip Class类属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__strip_style
+msgid "Strip Style Attribute"
+msgstr "Strip Style 样式属性"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_field_widgets__name
+msgid "Technical name of the widget"
+msgstr "widget挂件技术名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__related
+msgid ""
+"The corresponding related field, if any. This must be a dot-separated list "
+"of field names."
+msgstr "相应的相关字段（如果有的话）。这必须是一个以点分隔的字段名列表。"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__model_id
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__selection_field
+msgid "The model this field belongs to"
+msgstr "此字段所属的模型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__domain
+msgid ""
+"The optional domain to restrict possible values for relationship fields, "
+"specified as a Python expression defining a list of triplets. For example: "
+"[('color','=','red')]"
+msgstr ""
+"可选域，为关联字段限制可能的值，以 Python 表达式格式定义为一个三字段的列表。"
+"例如：[('color','=','red')]"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__created_tree_view_id
+msgid "This is the currently created tree view"
+msgstr "这是当前创建的树形视图"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__is_dynamic_field
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_ir_model_fields__is_dynamic_field
+msgid "To filter dynamically created fields"
+msgstr "过滤动态创建的字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__model
+msgid "To store selected model name"
+msgstr "存储所选模型名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__translate
+msgid "Translatable"
+msgstr "翻译"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_field_id
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_field_ids
+msgid "Tree Field"
+msgstr "Tree字段"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_field_position
+msgid "Tree Position"
+msgstr "Tree 位置"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model_terms:ir.ui.view,arch_db:all_in_one_dynamic_custom_fields.dynamic_fields_view_form
+msgid "Tree View"
+msgstr "Tree视图"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_id
+msgid "Tree View ID"
+msgstr "Tree 视图ID"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_ids
+msgid "Tree View IDs"
+msgstr "Tree 视图ID"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_id
+msgid "Tree view id of the model"
+msgstr "模型的Tree 视图id"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__tree_view_inherit_id
+msgid "Tree view inherit id(adds by selecting tree view id)"
+msgstr "树视图继承 ID（通过选择树视图 ID 添加）"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__state
+msgid "Type"
+msgstr "类型"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__relation_table
+msgid "Used for custom many2many fields to define a custom relation table name"
+msgstr "用于自定义 many2many 字段，以定义自定义关系表名称"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:res.groups,name:all_in_one_dynamic_custom_fields.group_all_in_one_dynamic_custom_fields_user
+msgid "User"
+msgstr "用户"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__is_visible_in_tree_view
+msgid "Visible In List View"
+msgstr "列表视图可见"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__copied
+msgid "Whether the value is copied when duplicating a record."
+msgstr "该行记录的值可复制为副本。"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__store
+msgid "Whether the value is stored in the database."
+msgstr "值是否存储在数据库。"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__translate
+msgid ""
+"Whether values for this field can be translated (enables the translation "
+"mechanism for that field)"
+msgstr "此字段的值是否可以被翻译（启用该字段的翻译机制）"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__company_dependent
+msgid "Whether values for this field is company dependent"
+msgstr "该字段的值是否依赖于公司"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,field_description:all_in_one_dynamic_custom_fields.field_dynamic_fields__widget_id
+msgid "Widget"
+msgstr "挂件"
+
+#. module: all_in_one_dynamic_custom_fields
+#: model:ir.model.fields,help:all_in_one_dynamic_custom_fields.field_dynamic_fields__widget_id
+msgid "Widgets for field"
+msgstr "挂件字段"
